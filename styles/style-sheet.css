@@ -1,0 +1,85 @@
+html {
+  background: url(images/wood-bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+header {
+    width: 90%;
+    padding: 1rem;
+    background-color: beige;
+    position: relative;
+    left: 5%;
+    top: -1rem;
+    font-size: .25em;
+    color: beige;
+    box-shadow: 0rem .5rem 1rem #888888;
+    
+}
+
+nav {
+    background-color: darkgreen;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: -1rem;
+    padding: 1rem;
+    margin-bottom: 1em;
+    color: beige;
+    box-shadow: 0rem .5rem 1rem #888888;
+}
+nav a{
+    color: beige;
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+nav a:hover{
+    text-decoration: line-through;
+}
+main {
+    width: 90%;
+    padding: 1rem;
+    background-color: beige;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    box-shadow: 0rem 0rem 1rem #888888;
+    color: #654321;
+}
+section {
+    padding: inherit;
+}
+.classestitle{
+    clear: both;
+}
+article{
+    float: left;
+    display: -webkit-flex;
+    display: flex;
+    width: 25%;
+    padding: inherit;
+}
+.private{
+    clear: both;
+}
+footer {
+    background-color: darkgreen;
+    color: beige;
+    padding: 1rem;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    bottom: 0%;
+    margin-top: 1rem;
+    
+}
+footer a:hover{
+    text-decoration: line-through;}
